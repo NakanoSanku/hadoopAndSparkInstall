@@ -17,17 +17,17 @@
 <!-- Put site-specific property overrides in this file. -->
 
 <configuration>
-<!-- hdfs的數據副本數量 -->
+
   <property>
     <name>dfs.replication</name>
     <value>1</value>
   </property>
-  <!-- namenode的儲存位置 -->
+
   <property>
     <name>dfs.namenode.name.dir</name>
     <value>file:~/hdfs/namenode</value>
   </property>
-  <!-- datanode的儲存位置 -->
+
   <property>
     <name>dfs.datanode.data.dir</name>
     <value>file:~/hdfs/datanode</value>

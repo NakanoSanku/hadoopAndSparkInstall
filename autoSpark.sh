@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ~
 wget -v -P ~ "https://dlcdn.apache.org/spark/spark-3.5.0/spark-3.5.0-bin-without-hadoop.tgz"
 
 tar -zxvf spark-3.5.0-bin-without-hadoop.tgz
